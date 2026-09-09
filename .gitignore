@@ -141,3 +141,18 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Betriebssystemdateien
+.DS_Store
+Thumbs.db
+
+# Lokale generierte Ausgaben
+generated/
+outputs/
+
+# Auftragsspezifische Bildprompts und Zwischenbilder
+/temp/
+
+# Lokale Editor-Dateien
+.idea/
+.vscode/

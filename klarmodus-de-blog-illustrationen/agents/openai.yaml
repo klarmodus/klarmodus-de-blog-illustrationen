@@ -1,0 +1,6 @@
+interface:
+  display_name: "Klarmodus Blog-Illustrationen"
+  short_description: "Blogbilder mit K-Macher als Handzeichnung oder Pixel-Art"
+  default_prompt: "Nutze $klarmodus-de-blog-illustrationen für diesen Blogartikel, standardmäßig als Pixel-Art; verwende Handzeichnung nur auf meinen ausdrücklichen Wunsch."
+policy:
+  allow_implicit_invocation: true
