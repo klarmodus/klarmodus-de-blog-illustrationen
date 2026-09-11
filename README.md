@@ -154,7 +154,7 @@ Für die Pflege dieses Projekts gibt es [scripts/push-all.sh](scripts/push-all.s
 
 Vor `--dry-run` und `--push` muss der Arbeitsstand sauber sein. Das Skript erstellt keine Commits, ändert keine Remotes und überträgt keine anderen Branches oder Tags. Es erzwingt keine Überschreibungen. Die drei Pushes sind unabhängig: Schlägt einer fehl, bleiben erfolgreiche Veröffentlichungen bestehen.
 
-Die HTTPS-Adressen enthalten keine Zugangsdaten. Git verwendet den lokal eingerichteten Credential-Manager oder fragt nach der Anmeldung. Tokens und Passwörter gehören weder ins Skript noch in Git-URLs oder ins Repository. Vor der Veröffentlichung müssen Dateien **und Commit-Historie** auf sensible Inhalte geprüft werden; `.gitignore` entfernt keine bereits eingecheckten Daten. Das Skript ist kein automatischer Secret-Scanner.
+GitHub wird über HTTPS mit dem lokalen Credential-Manager angesprochen, GitLab und Bitbucket über SSH. Hinterlege dafür deinen öffentlichen SSH-Schlüssel in beiden Konten; der private Schlüssel bleibt ausschließlich auf deinem Rechner. Die Zieladressen enthalten keine geheimen Zugangsdaten. Tokens und Passwörter gehören weder ins Skript noch in Git-URLs oder ins Repository. Vor der Veröffentlichung müssen Dateien **und Commit-Historie** auf sensible Inhalte geprüft werden; `.gitignore` entfernt keine bereits eingecheckten Daten. Das Skript ist kein automatischer Secret-Scanner.
 
 ## Woher das Projekt kommt
 
