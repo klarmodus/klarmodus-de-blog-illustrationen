@@ -16,7 +16,7 @@ cd -- "$script_dir/.."
 commit="$(git rev-parse --verify 'refs/heads/main^{commit}')"
 targets=(
   'https://github.com/klarmodus/klarmodus-de-blog-illustrationen.git'
-  'git@gitlab.com:hellorocketman/klarmodus-de-blog-illustrationen.git'
+  'git@gitlab.com:klarmodus/klarmodus-de-blog-illustrationen.git'
   'git@bitbucket.org:klarmodus/klarmodus-de-blog-illustrationen.git'
 )
 
