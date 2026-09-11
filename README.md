@@ -142,6 +142,20 @@ und kurze, natürlich deutsche Beschriftungen.
 
 Weitere Varianten, etwa zur reinen Bildplanung oder zur Bearbeitung eines vorhandenen Bildes, findest du in den [Beispielprompts](examples/prompts.md).
 
+## Repository auf mehreren Plattformen veröffentlichen
+
+Für die Pflege dieses Projekts gibt es [scripts/push-all.sh](scripts/push-all.sh). Es veröffentlicht den lokalen `main` auf GitHub, GitLab und Bitbucket. Wer das Projekt adaptiert, muss die drei Zieladressen im Skript durch eigene Repositories ersetzen.
+
+```bash
+./scripts/push-all.sh            # Nur lokale Vorschau, kein Netzwerkzugriff
+./scripts/push-all.sh --dry-run  # Berechtigungen und Push prüfen, nichts übertragen
+./scripts/push-all.sh --push     # Den bereits geprüften Commit veröffentlichen
+```
+
+Vor `--dry-run` und `--push` muss der Arbeitsstand sauber sein. Das Skript erstellt keine Commits, ändert keine Remotes und überträgt keine anderen Branches oder Tags. Es erzwingt keine Überschreibungen. Die drei Pushes sind unabhängig: Schlägt einer fehl, bleiben erfolgreiche Veröffentlichungen bestehen.
+
+Die HTTPS-Adressen enthalten keine Zugangsdaten. Git verwendet den lokal eingerichteten Credential-Manager oder fragt nach der Anmeldung. Tokens und Passwörter gehören weder ins Skript noch in Git-URLs oder ins Repository. Vor der Veröffentlichung müssen Dateien **und Commit-Historie** auf sensible Inhalte geprüft werden; `.gitignore` entfernt keine bereits eingecheckten Daten. Das Skript ist kein automatischer Secret-Scanner.
+
 ## Woher das Projekt kommt
 
 Die Grundlage ist [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) von Ian. Wir haben seine Vorlage für unseren Anwendungsfall bei Klarmodus angepasst: mit deutschen Bildtexten, unserem K-Maskottchen und Beispielen für Blogartikel.
