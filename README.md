@@ -144,7 +144,7 @@ Weitere Varianten, etwa zur reinen Bildplanung oder zur Bearbeitung eines vorhan
 
 ## Repository auf mehreren Plattformen veröffentlichen
 
-Für die Pflege dieses Projekts gibt es [scripts/push-all.sh](scripts/push-all.sh). Es veröffentlicht den lokalen `main` auf GitHub, GitLab und Bitbucket. Wer das Projekt adaptiert, muss die drei Zieladressen im Skript durch eigene Repositories ersetzen.
+Für die Pflege dieses Projekts gibt es [scripts/push-all.sh](scripts/push-all.sh). Es veröffentlicht den lokalen `main` auf GitHub und GitLab. Wer das Projekt adaptiert, muss die beiden Zieladressen im Skript durch eigene Repositories ersetzen.
 
 ```bash
 ./scripts/push-all.sh            # Nur lokale Vorschau, kein Netzwerkzugriff
@@ -152,9 +152,9 @@ Für die Pflege dieses Projekts gibt es [scripts/push-all.sh](scripts/push-all.s
 ./scripts/push-all.sh --push     # Den bereits geprüften Commit veröffentlichen
 ```
 
-Vor `--dry-run` und `--push` muss der Arbeitsstand sauber sein. Das Skript erstellt keine Commits, ändert keine Remotes und überträgt keine anderen Branches oder Tags. Es erzwingt keine Überschreibungen. Die drei Pushes sind unabhängig: Schlägt einer fehl, bleiben erfolgreiche Veröffentlichungen bestehen.
+Vor `--dry-run` und `--push` muss der Arbeitsstand sauber sein. Das Skript erstellt keine Commits, ändert keine Remotes und überträgt keine anderen Branches oder Tags. Es erzwingt keine Überschreibungen. Die beiden Pushes sind unabhängig: Schlägt einer fehl, bleiben erfolgreiche Veröffentlichungen bestehen.
 
-GitHub wird über HTTPS mit dem lokalen Credential-Manager angesprochen, GitLab und Bitbucket über SSH. Hinterlege dafür deinen öffentlichen SSH-Schlüssel in beiden Konten; der private Schlüssel bleibt ausschließlich auf deinem Rechner. Die Zieladressen enthalten keine geheimen Zugangsdaten. Tokens und Passwörter gehören weder ins Skript noch in Git-URLs oder ins Repository. Vor der Veröffentlichung müssen Dateien **und Commit-Historie** auf sensible Inhalte geprüft werden; `.gitignore` entfernt keine bereits eingecheckten Daten. Das Skript ist kein automatischer Secret-Scanner.
+GitHub wird über HTTPS mit dem lokalen Credential-Manager angesprochen, GitLab über SSH. Hinterlege dafür deinen öffentlichen SSH-Schlüssel in deinem GitLab-Konto; der private Schlüssel bleibt ausschließlich auf deinem Rechner. Die Zieladressen enthalten keine geheimen Zugangsdaten. Tokens und Passwörter gehören weder ins Skript noch in Git-URLs oder ins Repository. Vor der Veröffentlichung müssen Dateien **und Commit-Historie** auf sensible Inhalte geprüft werden; `.gitignore` entfernt keine bereits eingecheckten Daten. Das Skript ist kein automatischer Secret-Scanner.
 
 ## Woher das Projekt kommt
 
