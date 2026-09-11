@@ -16,6 +16,24 @@ Das Projekt steht unter der [MIT-Lizenz](LICENSE). Bitte behalte bei der Weiterg
 
 Diese finalen Pixel-Art-Motive haben wir für unsere Ratgeber erstellt. Die Vorschaubilder sind als WebP eingebunden; ein Klick auf das Bild öffnet den zugehörigen Artikel.
 
+### Local SEO für Steuerberater: Unternehmensprofil und Kanzleiwebsite aufeinander abstimmen
+
+[![Der K-Macher richtet die Wegweiser für Google-Profil und Website auf dieselbe Steuerkanzlei aus](assets/local-seo-steuerberater-illustrations/pixel-art/01-dieselbe-richtung.webp)](https://klarmodus.de/ratgeber/local-seo-steuerberater/)
+
+[Artikel lesen](https://klarmodus.de/ratgeber/local-seo-steuerberater/) · [WebP herunterladen](assets/local-seo-steuerberater-illustrations/pixel-art/01-dieselbe-richtung.webp) · [PNG-Original](assets/local-seo-steuerberater-illustrations/pixel-art/01-dieselbe-richtung.png)
+
+### Als Steuerberater passende Mandanten gewinnen: von der Suche zur qualifizierten Anfrage
+
+[![Der K-Macher sucht mit einem langen Teleskop, während ein Interessent mit einer Anfrage neben ihm wartet](assets/mandanten-gewinnen-steuerberater-illustrations/pixel-art/02-mandanten-aufspueren.webp)](https://klarmodus.de/ratgeber/mandanten-gewinnen-steuerberater/)
+
+[Artikel lesen](https://klarmodus.de/ratgeber/mandanten-gewinnen-steuerberater/) · [WebP herunterladen](assets/mandanten-gewinnen-steuerberater-illustrations/pixel-art/02-mandanten-aufspueren.webp) · [PNG-Original](assets/mandanten-gewinnen-steuerberater-illustrations/pixel-art/02-mandanten-aufspueren.png)
+
+### Marketing für Steuerberater: Welche Maßnahmen sich zuerst lohnen
+
+[![Der K-Macher wählt aus einem vollen Marketing-Werkzeugkasten die erste Maßnahme aus](assets/marketing-fuer-steuerberater-massnahmen-priorisieren-illustrations/pixel-art/01-marketing-werkzeugkasten.webp)](https://klarmodus.de/ratgeber/marketing-fuer-steuerberater-massnahmen-priorisieren/)
+
+[Artikel lesen](https://klarmodus.de/ratgeber/marketing-fuer-steuerberater-massnahmen-priorisieren/) · [WebP herunterladen](assets/marketing-fuer-steuerberater-massnahmen-priorisieren-illustrations/pixel-art/01-marketing-werkzeugkasten.webp) · [PNG-Original](assets/marketing-fuer-steuerberater-massnahmen-priorisieren-illustrations/pixel-art/01-marketing-werkzeugkasten.png)
+
 ### Dürfen Anwälte Werbung machen?
 
 [![Der K-Macher angelt eine Infokarte aus einem großen Gesetzbuch für den Auftritt einer Rechtsanwaltskanzlei](assets/duerfen-anwaelte-werbung-machen-illustrations/pixel-art/01-fachwissen-greifbar-machen.webp)](https://klarmodus.de/ratgeber/duerfen-anwaelte-werbung-machen/)
